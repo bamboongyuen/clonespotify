@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký - Spotify</title>
+    <link rel="stylesheet" href="/asset/icon/icofont.css">
+    <link rel="stylesheet" href="/asset/css/signup.css">
+</head>
+<body>
+    <div id="grid">
+        <div id="form-signup">
+            <div class="formgroup">
+                    <a href="/"><img src="/asset/logo/Spotify.png" alt=""></a>
+            </div>
+
+            <div class="formgroup">
+                <h3 class="formgroup__header" >Đăng ký miễn phĩ để bắt đầu nghe.</h3>
+            </div>
+
+            <div class="formgroup">
+                <li class="formgroup__facebook">
+                    <i class="icofont-facebook"></i>
+                    <p>Đăng ký bằng Facebook</p>
+                </li>
+            </div>
+
+            <div class="formgroup">
+                <li class="formgroup__google">
+                    <i class="icofont-google-plus"></i>
+                    <p>Đăng ký bằng Google</p>
+                </li>
+            </div>
+
+            <div class="formgroup">
+                <span class="formgroup__span">hoặc</span>
+            </div>
+
+            <div class="formgroup">
+                <h3 class="formgroup__title">Email của bạn là gì ?</h3>
+                <input id="email" rules="requite|email" class="formgroup__input" type="text" placeholder="Nhập email của bạn.">
+                <p class="formgroup__msg"></p>
+            </div>
+            <a class="formgroup__phone" href="">Dùng số điện thoại.</a>
+
+            <div class="formgroup">
+                <h3 class="formgroup__title">Xác nhận email của bạn</h3>
+                <input id="email_confirm" rules="requite|email|emailconfirm:#email" class="formgroup__input" type="text" placeholder="Nhập lại email của bạn.">
+                <p class="formgroup__msg"></p>
+            </div>
+
+            <div class="formgroup">
+                <h3 class="formgroup__title">Tạo mật khẩu</h3>
+                <input id="password" rules="requite|min:6" class="formgroup__input" type="password" placeholder="Tạo mật khẩu.">
+                <p class="formgroup__msg"></p>
+            </div>
+
+            <div class="formgroup">
+                <h3 class="formgroup__title">Bạn tên là gì ?</h3>
+                <input id="name" rules="requite" class="formgroup__input" type="text" placeholder="Nhập tên hồ sơ.">
+                <p class="formgroup__infor">Tên này sẽ xuất hiện trên hồ sơ của bạn.</p>
+                <p class="formgroup__msg"></p>
+            </div>
+
+            <div class="formgroup">
+                <h3 class="formgroup__title">Bạn sinh ngày nào ?</h3>
+                <div class="formgroup__dategroup">
+                    <ul class="formgroup__date">
+                        <p>Ngày</p>
+                        <input id="date" rules="number:1-31" class="formgroup__input date" type="text" placeholder="DD">
+                    </ul>
+    
+                    <ul class="formgroup__month">
+                        <p>Tháng</p>
+                        <select id="month" rules="requite" class="formgroup__input month">
+                            <option value="" selected>Tháng</option>
+                            <option value="1">Tháng 1</option>
+                            <option value="2">Tháng 2</option>
+                            <option value="3">Tháng 3</option>
+                            <option value="4">Tháng 4</option>
+                            <option value="5">Tháng 5</option>
+                            <option value="6">Tháng 6</option>
+                            <option value="7">Tháng 7</option>
+                            <option value="8">Tháng 8</option>
+                            <option value="9">Tháng 9</option>
+                            <option value="10">Tháng 10</option>
+                            <option value="11">Tháng 11</option>
+                            <option value="12">Tháng 12</option>
+                        </select>
+                    </ul>
+    
+                    <ul class="formgroup__year">
+                        <p>Năm</p>
+                        <input id="year" rules="number:1900-2030" class="formgroup__input year" type="text" placeholder="YYYY">
+                    </ul>                    
+
+                </div>
+                <p class="formgroup__msg"></p>
+
+
+            </div>
+
+            <div class="formgroup">
+                <h3 class="formgroup__title">Giới tính của bạn là gì ?</h3>
+                <div class="formgroup__input gender">
+                    <input name="gender" rules="requite" class="formgroup__input radio" type="radio" value="female"><span>Nữ</span>
+                    <input name="gender" rules="requite" class="formgroup__input radio" type="radio" value="male"><span>Nam</span>
+                    <input name="gender" rules="requite" class="formgroup__input radio" type="radio" value="other"><span>Other</span>
+                </div>
+                <p class="formgroup__msg"></p>
+
+            </div>
+
+            <div class="formgroup checkbox">
+                <input id="nomessage" rules="value" type="checkbox" class="formgroup__checkbox" value="nomessage">
+                <span>Tôi không muốn nhận tin nhắn tiếp thị từ Spotify</span>
+            </div>
+
+            <div class="formgroup checkbox">
+                <input id="share" rules="value" type="checkbox" class="formgroup__checkbox" value="share">
+                <span>Chia sẻ dữ liệu đăng ký của tôi với các nhà cung cấp nội dung của Spotify cho mục đích tiếp thị.</span>
+            </div>
+
+            <div class="formgroup checkbox">
+                <input id="robot" rules="requite" type="checkbox" class="formgroup__checkbox" value="">
+                <span>Tôi không phải người máy</span>
+                <p class="formgroup__msg"></p>
+            </div>
+
+            <div class="formgroup">
+                <div class="formgroup__infor">
+                    <p>Bằng việc nhấp vào nút Đăng ký, bạn đồng ý với</p>
+                    <a href=""> Điều khoản và điều kiện sử dụng</a>
+                    <p>của Spotify.</p>
+                </div>
+            </div>
+
+            <div class="formgroup">
+                <div class="formgroup__infor">
+                    <p>Để tìm hiểu thêm về cách thức Spotify thu thập, sử dụng, chia sẻ và bảo vệ dữ liệu cá nhân của bạn, vui lòng xem </p>
+                    <a href=""> Chính sách quyền riêng tư của Spotify.</a>
+                </div>
+            </div>
+            
+            <button id="form-submit" class="formgroup__submit">Đăng ký</button>
+
+            <div class="formgroup">
+                <div class="formgroup__login">
+                    <p>Bạn có tài khoản ?</p>
+                    <a href="/asset/child/signin.html">Đăng nhập.</a>
+                </div>
+            </div>
+            <div class="formgroup__bottom"></div>
+        </div>
+
+
+    </div>
+    <script src="/asset/js/validator.js"></script>
+    <script>
+
+        Validator('#form-signup')
+
+    </script>
+
+</body>
+</html>

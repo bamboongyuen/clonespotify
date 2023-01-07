@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#grid {
+    min-width: 550px;
+    display: flex;
+    justify-content: center;
+}
+#form-signup,
+#form-signin {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.formgroup {
+    margin: 10px 0;
+    position: relative;
+}
+.formgroup img {
+    height: 30px;
+    margin: 20px 0;
+}
+.formgroup .logo {
+    height: 50px;
+    margin: 10px 0;
+}
+.formgroup.signin {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+}
+
+.formgroup__header {
+    font-size: 26px;
+    text-align: center;
+    
+}
+.formgroup__facebook,
+.formgroup__google {
+    display: flex;
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.formgroup__facebook i,
+.formgroup__google i {
+    margin-right: 10px;
+    font-size: 24px;
+    transform: translateY(-4px);
+}
+
+.formgroup__facebook {
+    background-color: #405A93;
+    color: white;
+}
+
+.formgroup__google {
+    border: 2px solid black;
+    color: #535353;
+}
+.formgroup__btn {
+    display: flex;
+    padding: 15px 0px;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 442px;
+    justify-content: center;
+    color: #6A6A6A;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 1px solid #878787;
+    text-decoration: none;
+}
+.formgroup__btn i {
+    margin: 0 4px;
+    font-size: 16px;
+    transform: translateY(-2px);
+}
+.formgroup__btn.green {
+    background-color: #1877F2;
+    color: #EAF1FD;
+    border-color: transparent;
+}
+.formgroup__btn.black {
+    background-color: #191919;
+    color: #EAF1FD;
+    border-color: transparent;
+}
+.formgroup__btn:hover {
+    border: 1px solid black;
+}
+
+.formgroup__span {
+    display: inline-block;
+    color: #7F7F7F;
+    background-color: white;
+    padding: 0 4px;
+    letter-spacing: 2px;
+}
+
+.formgroup__span::after {
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color: #CCCCCC;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    z-index: -2;
+}
+.formgroup__span.big::after {
+    width: 1200px;
+}
+.formgroup__title {
+    font-size: 14px;
+    margin: 8px 0;
+}
+.formgroup__input {
+    width: 400px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 4px 20px;
+    border: 1px solid #1a1a1a;
+    outline: none;
+    font-size: 16px;
+}
+.formgroup__input.checkbox input {
+    margin-right: 8px;
+}
+.formgroup__input:hover {
+    border-color: #68D962;
+}
+.formgroup__msg {
+    margin: 8px 0;
+    color: red;
+    font-size: 13px;
+}
+.formgroup__phone {
+    width: 400px;
+    color: #589b55;
+    font-size: 13px;
+}
+
+
+.formgroup__dategroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 442px;
+}
+.formgroup__date {
+    margin-right: 10px;
+}
+.formgroup__year {
+    margin-left: 10px;
+}
+.formgroup__month {
+    margin: 0 10px;
+}
+.formgroup__input.date {
+    width: 40px;
+}
+.formgroup__input.month {
+    width: 210px;
+    height: 50px;
+}
+.formgroup__input.year {
+    width: 60px;
+}
+.formgroup__input.radio {
+    width: auto;
+    display: flex;
+    margin: 0 5px 0 20px;
+}
+.formgroup__input.gender {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.formgroup__link {
+    font-size: 15px;
+    color: black;
+}
+
+.formgroup.checkbox {
+    width: 442px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.formgroup__infor p, a {
+    font-size: 13px;
+    display: inline;
+}
+.formgroup__infor a {
+    color: #68D962;
+}
+
+.formgroup__login p, a {
+    display: inline;
+    font-size: 16px;
+}
+.formgroup__login a {
+    color: #68D962;
+}
+
+.formgroup__submit,
+.formgroup__signin {
+    padding: 14px 40px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: #68D962;
+    transition: all .2s;
+    cursor: pointer;
+}
+.formgroup__signin {
+    font-size: 13px;
+}
+.formgroup__submit:hover {
+    scale: 1.1;
+    opacity: .9;
+}
+.formgroup__bottom {
+    margin: 50px;
+}

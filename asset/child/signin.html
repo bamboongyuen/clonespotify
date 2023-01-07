@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký - Spotify</title>
+    <link rel="stylesheet" href="/asset/icon/icofont.css">
+    <link rel="stylesheet" href="/asset/css/signup.css">
+</head>
+<body>
+    <div id="grid">
+        <div id="form-signin">
+
+            <div class="formgroup">
+                    <a href="/"><img class="logo" src="/asset/logo/Spotify.png" alt=""></a>
+            </div>
+
+            <div class="formgroup">
+                <span class="formgroup__span big"></span>
+            </div>
+
+            <div class="formgroup">
+                <h3 class="formgroup__title" >Để tiếp tục, hãy đăng nhập vào Spotify.</h3>
+            </div>
+
+            <div class="formgroup">
+                <li class="formgroup__btn green">
+                    <i class="icofont-facebook"></i>
+                    <p>TIẾP TỤC VỚI FACEBOOK</p>
+                </li>
+            </div>
+
+            <div class="formgroup">
+                <li class="formgroup__btn black">
+                    <i class="icofont-facebook"></i>
+                    <p>TIẾP TỤC VỚI APPLE</p>
+                </li>
+            </div>
+
+            <div class="formgroup">
+                <li class="formgroup__btn">
+                    <i class="icofont-google-plus"></i>
+                    <p>TIẾP TỤC BẰNG GOOGLE</p>
+                </li>
+            </div>
+            <div class="formgroup">
+                <li class="formgroup__btn">
+                    <p>TIẾP TỤC VỚI SỐ ĐIỆN THOẠI</p>
+                </li>
+            </div>
+
+            <div class="formgroup">
+                <span class="formgroup__span">HOẶC</span>
+            </div>
+
+            <div class="formgroup">
+                <h3 class="formgroup__title">Địa chỉ email hoặc tên người dùng</h3>
+                <input id="email" rules="requite|email" class="formgroup__input" type="text" placeholder="Địa chỉ email hoặc tên người dùng..">
+                <p class="formgroup__msg"></p>
+            </div>
+
+            <div class="formgroup">
+                <h3 class="formgroup__title">Mật khẩu</h3>
+                <input id="password" rules="requite|min:6" class="formgroup__input" type="password" placeholder="Mật khẩu..">
+                <p class="formgroup__msg"></p>
+            </div>
+
+            <div class="formgroup checkbox">
+                <a class="formgroup__link" href="">Quên mật khẩu của bạn?</a>
+            </div>
+
+            <div class="formgroup signin">
+                <div class="formgroup">
+                    <input id="remember" rules="value" type="checkbox" class="formgroup__checkbox" value="rememberme">
+                    <span>Hãy nhớ tôi</span>
+                </div>
+
+                <button id="form-submit" class="formgroup__signin">ĐĂNG NHẬP</button>
+               
+            </div>
+            
+            <div class="formgroup">
+                <span class="formgroup__span"></span>
+            </div>
+
+            <div class="formgroup">
+                <div class="formgroup__">
+                    <h3>Bạn chưa có tài khoản?</h3>
+                </div>
+            </div>
+
+            <div class="formgroup">
+                <a class="formgroup__btn"href="/asset/child/signup.html">ĐĂNG KÝ SPOTIFY</a>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="/asset/js/validator.js"></script>
+    <script>
+
+        Validator('#form-signin')
+
+    </script>
+
+</body>
+</html>
