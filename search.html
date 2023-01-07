@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify - Trình phát trên web</title>
+    <title>Spotify - Tìm kiếm</title>
     <link rel="stylesheet" href="/asset/icon/icofont.css">
     <link rel="stylesheet" href="/asset/css/main.css">
 </head>
@@ -66,6 +66,12 @@
                     <a class="header-nav-arrow"></a>
                     <a class="header-nav-arrow invert"></a>
                 </div>
+    
+                <div class="header-search">
+                    <i class="icofont-search-1"></i>
+                    <input id="search" type="text" placeholder="Bạn muốn nghe gì?">
+                    <i class="icofont-close-line"></i>
+                </div>
             </div>
 
             <div class="header-group">
@@ -99,92 +105,24 @@
 
                 <div class="mainview__item">
                     <div class="mainview__title">
-                        <a name="center"  class="big" href="">Tập trung</a>
-                        <a name="center" href="">HIỆN TẤT CẢ</a>
+                        <ul class="big" >Duyệt tất cả</ul>
                     </div>
     
                     <div class="mainview__content">
     
-                        <li class="mainview__content-item">
-                            <img src="/asset/book/04biakhoaluantnthumbimage.jpg" alt="">
-                            <h5>Piano</h5>
-                            <p>Relax and indulge with beautiful piano pieces</p>
-                            <i class="icofont-play-alt-1"></i>
-                        </li>
+                        <ul class="mainview__content-search">
+                            <ul class="mainview__content-content">
+                                <h3>Podcast</h3>
+                                <li class="frame"><img src="/asset/book/04biakhoaluantnthumbimage.jpg" alt=""></li>
+                            </ul>
+                        </ul>
     
-                        <li class="mainview__content-item">
-                            <img src="/asset/book/banvekheuocxahoi.jpg" alt="">
-                            <h5>Piano</h5>
-                            <p>Relax and indulge with beautiful piano pieces</p>
-                            <i class="icofont-play-alt-1"></i>
-                        </li>
-    
-                        <li class="mainview__content-item">
-                            <img src="/asset/book/banvekheuocxahoi.jpg" alt="">
-                            <h5>Piano</h5>
-                            <p>Relax and indulge with beautiful piano pieces</p>
-                            <i class="icofont-play-alt-1"></i>
-                        </li>
-    
-                        <li class="mainview__content-item">
-                            <img src="/asset/book/banvekheuocxahoi.jpg" alt="">
-                            <h5>Piano</h5>
-                            <p>Relax and indulge with beautiful piano pieces</p>
-                            <i class="icofont-play-alt-1"></i>
-                        </li>
-    
-                        <li class="mainview__content-item">
-                            <img src="/asset/book/banvekheuocxahoi.jpg" alt="">
-                            <h5>Piano</h5>
-                            <p>Relax and indulge with beautiful piano pieces</p>
-                            <i class="icofont-play-alt-1"></i>
-                        </li>
+                        
     
                     </div>
                 </div>
     
-                <div class="mainview__item">
-                    <div class="mainview__title">
-                        <a name="playlist" class="big" href="">Spotify playlists</a>
-                        <a name="playlist" href="">HIỆN TẤT CẢ</a>
-                    </div>
-                    <div class="mainview__content">
-                        <a class="mainview__content-item" href="/">
-                            <img src="/asset/book/04biakhoaluantnthumbimage.jpg" alt="">
-                            <h5>Piano</h5>
-                            <p>Relax and indulge with beautiful piano pieces</p>
-                            <i class="icofont-play-alt-1"></i>
-                        </a>
-    
-                        <li class="mainview__content-item">
-                            <img src="/asset/book/banvekheuocxahoi.jpg" alt="">
-                            <h5>Piano</h5>
-                            <p>Relax and indulge with beautiful piano pieces</p>
-                            <i class="icofont-play-alt-1"></i>
-                        </li>
-    
-                        <li class="mainview__content-item">
-                            <img src="/asset/book/banvekheuocxahoi.jpg" alt="">
-                            <h5>Piano</h5>
-                            <p>Relax and indulge with beautiful piano pieces</p>
-                            <i class="icofont-play-alt-1"></i>
-                        </li>
-    
-                        <li class="mainview__content-item">
-                            <img src="/asset/book/banvekheuocxahoi.jpg" alt="">
-                            <h5>Piano</h5>
-                            <p>Relax and indulge with beautiful piano pieces</p>
-                            <i class="icofont-play-alt-1"></i>
-                        </li>
-    
-                        <li class="mainview__content-item">
-                            <img src="/asset/book/banvekheuocxahoi.jpg" alt="">
-                            <h5>Piano</h5>
-                            <p>Relax and indulge with beautiful piano pieces</p>
-                            <i class="icofont-play-alt-1"></i>
-                        </li>
-                    </div>
-                </div>
+                
 
             </div>
 
@@ -212,6 +150,10 @@
     </div>
 
     <script src="/asset/js/display.js"></script>
+
+    <script>
+        renderSearch(getDatabase2())
+    </script>
 </body>
 
 </html>
