@@ -334,6 +334,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     transition: all .4s;
+    height: 300px;
 }
 .mainview__content-item i {
     content: '';
@@ -368,12 +369,15 @@ body {
 }
 
 .mainview__content-item img {
-    position: relative;
+    /* position: relative;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;*/
+    border-radius: 10px; 
     width: 100%;
-    border-radius: 10px;
-    overflow: hidden;
+    height: 60%;
+    object-fit: cover;
+    
 }
 .mainview__content-item h5 {
     font-size: 16px;

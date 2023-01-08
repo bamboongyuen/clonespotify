@@ -5,6 +5,7 @@ const $$ = document.querySelectorAll.bind(document)
 
 resizeSidebar()
 displayMenu()
+addEventPlay()
 
 $('#home').onclick = function(e) {
     if (!this.baseURI.match('home')) {
@@ -50,6 +51,7 @@ for (let link of $$('a[name="center"]')) {
         let data = getDatabase()
         //render to web
         renderMainview(data)
+        addEventPlay()
     }
 }
 for (let link of $$('a[name="playlist"]')) {
@@ -59,62 +61,80 @@ for (let link of $$('a[name="playlist"]')) {
         let data = getDatabase()
         //render to web
         renderMainview(data)
+        addEventPlay()
     }
 }
 
 
+//
+
+
+
+
 //function
+function addEventPlay() {
+    for (let playBtns of $$('.icofont-play-alt-1')) {
+        if (playBtns) {
+            playBtns.onclick = function(e) {
+                let title = 'Thật xin lỗi!!!'
+                let msg = 'Chức năng đang phát triển.'
+                displayNotify(title, msg, e.clientX + 20, e.clientY - 20)
+                e.stopPropagation()
+            }
+        }
+    }
+}
 function getDatabase() {
     //fetch to get data
     let data = [
         
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-1586298.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-2335126.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-3181458.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-2387866.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-1586298.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-2335126.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-2387866.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-2335126.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-3181458.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-2387866.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
@@ -127,17 +147,17 @@ function getDatabase2() {
     let data = [
         
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-3181458.jpeg',
             title: 'Piano',
             bgc: '#3A856B'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-3181458.jpeg',
             title: 'Dành cho bạn',
             bgc: '#1E3264'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '/asset/pic/pexels-photo-3181458.jpeg',
             title: 'Bảng xếp hạng',
             bgc: '#8E68AB'
         },
@@ -327,7 +347,7 @@ function displayNotify(title, msg, x, y) {
                 <p class="notify__msg">${msg}</p>
                 <ul class="notify__controls">
                     <a class="btn" href="">Để sau</a>
-                    <a class="btn white" href="/asset/child/signin.html">Đăng nhập</a>
+                    <a class="btn white" href="/signin.html">Đăng nhập</a>
                 </ul>`
     const notifyElement = $('.notify')
     notifyElement.style.left = x +20 + 'px'
