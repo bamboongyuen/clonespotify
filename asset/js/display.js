@@ -89,52 +89,52 @@ function getDatabase() {
     let data = [
         
         {
-            url: '/asset/pic/pexels-photo-1586298.jpeg',
+            url: '../asset/pic/pexels-photo-1586298.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/pic/pexels-photo-2335126.jpeg',
+            url: '../asset/pic/pexels-photo-2335126.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/pic/pexels-photo-3181458.jpeg',
+            url: '../asset/pic/pexels-photo-3181458.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/pic/pexels-photo-2387866.jpeg',
+            url: '../asset/pic/pexels-photo-2387866.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/pic/pexels-photo-1586298.jpeg',
+            url: '../asset/pic/pexels-photo-1586298.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/pic/pexels-photo-2335126.jpeg',
+            url: '../asset/pic/pexels-photo-2335126.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/pic/pexels-photo-2387866.jpeg',
+            url: '../asset/pic/pexels-photo-2387866.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/pic/pexels-photo-2335126.jpeg',
+            url: '../asset/pic/pexels-photo-2335126.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/pic/pexels-photo-3181458.jpeg',
+            url: '../asset/pic/pexels-photo-3181458.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
         {
-            url: '/asset/pic/pexels-photo-2387866.jpeg',
+            url: '../asset/pic/pexels-photo-2387866.jpeg',
             title: 'Piano',
             content: 'Relax and indulge with beautiful piano pieces'
         },
@@ -147,156 +147,156 @@ function getDatabase2() {
     let data = [
         
         {
-            url: '/asset/pic/pexels-photo-3181458.jpeg',
+            url: '../asset/pic/pexels-photo-3181458.jpeg',
             title: 'Piano',
             bgc: '#3A856B'
         },
         {
-            url: '/asset/pic/pexels-photo-3181458.jpeg',
+            url: '../asset/pic/pexels-photo-3181458.jpeg',
             title: 'Dành cho bạn',
             bgc: '#1E3264'
         },
         {
-            url: '/asset/pic/pexels-photo-3181458.jpeg',
+            url: '../asset/pic/pexels-photo-3181458.jpeg',
             title: 'Bảng xếp hạng',
             bgc: '#8E68AB'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Mới phát hành',
             bgc: '#E9485B'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Khám phá',
             bgc: '#8E68AB'
         },
 
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Sự kiện trực tiếp',
             bgc: '#7357FC'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Nhạc Việt',
             bgc: '#B49BC8'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'K-Pop',
             bgc: '#418B0D'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Pop',
             bgc: '#EC52A5'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Tâm trạng',
             bgc: '#9CF1E1'
         },
 
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Không gian lãng mạn',
             bgc: '#8D2832'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Pride',
             bgc: '#D7F37D'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Ở nhà',
             bgc: '#0D74EC'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Gia đình',
             bgc: '#477D95'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Thập niên',
             bgc: '#BA5E23'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Piano',
             bgc: '#3A856B'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Dành cho bạn',
             bgc: '#1E3264'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Bảng xếp hạng',
             bgc: '#8E68AB'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Mới phát hành',
             bgc: '#E9485B'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Khám phá',
             bgc: '#8E68AB'
         },
 
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Sự kiện trực tiếp',
             bgc: '#7357FC'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Nhạc Việt',
             bgc: '#B49BC8'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'K-Pop',
             bgc: '#418B0D'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Pop',
             bgc: '#EC52A5'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Tâm trạng',
             bgc: '#9CF1E1'
         },
 
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Không gian lãng mạn',
             bgc: '#8D2832'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Pride',
             bgc: '#D7F37D'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Ở nhà',
             bgc: '#0D74EC'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Gia đình',
             bgc: '#477D95'
         },
         {
-            url: '/asset/book/04biakhoaluantnthumbimage.jpg',
+            url: '../asset/book/04biakhoaluantnthumbimage.jpg',
             title: 'Thập niên',
             bgc: '#BA5E23'
         },
@@ -330,7 +330,7 @@ function renderSearch(data) {
     if (data.length) {
         let html = ''
         for (let obj of data) {
-            let element = `<a class="mainview__content-search" href="/"  style="background-color: ${obj.bgc};">
+            let element = `<a class="mainview__content-search" href="./index.html"  style="background-color: ${obj.bgc};">
                                 <ul class="mainview__content-content">
                                     <h3>${obj.title}</h3>
                                     <li class="frame"><img src="${obj.url}" alt=""></li>
