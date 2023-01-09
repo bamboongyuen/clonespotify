@@ -9,12 +9,12 @@ addEventPlay()
 
 $('#home').onclick = function(e) {
     if (!this.baseURI.match('home')) {
-        location.href = '/'
+        location.href = './index.html'
     }
 }
 
 $('#search').onclick = function(e) {
-    location.href = '/search.html'
+    location.href = './search.html'
 
 }
 
@@ -347,7 +347,7 @@ function displayNotify(title, msg, x, y) {
                 <p class="notify__msg">${msg}</p>
                 <ul class="notify__controls">
                     <a class="btn" href="">Để sau</a>
-                    <a class="btn white" href="/signin.html">Đăng nhập</a>
+                    <a class="btn white" href="./signin.html">Đăng nhập</a>
                 </ul>`
     const notifyElement = $('.notify')
     notifyElement.style.left = x +20 + 'px'
